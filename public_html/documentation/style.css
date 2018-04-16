@@ -1,0 +1,19 @@
+.container {
+	width: 65%;
+	display: inline-block;
+}
+
+.subject {
+	border: 2px groove black;
+	padding: 4px;
+}
+
+/*p {*/
+	/*margin-left: 4em;*/
+	/*text-indent: -4em;*/
+/*}*/
+
+.milestone {
+	letter-spacing: 5px;
+	text-transform: uppercase;
+}
