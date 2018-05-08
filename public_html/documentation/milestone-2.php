@@ -12,9 +12,34 @@
 		<hr/>
 		<h3><span class="subject">Content Strategy</span></h3>
 		<div class="container">
-			<p><strong>Purpose:</strong> This page will be a space in which I can document my progress as a coder during (and after) this bootcamp. I'll include links to github/social media/personal website and other things like reflective 'blog' posts, insights, and inspirations that I pick up along the way.</p>
-			<p><strong>Audience:</strong> The intended audience of this page consists of anyone who might be interested in my journey as a coder. Ideally, a potential employer or client will see this page and immediately understand my programming chops.</p>
-			<p><strong>Goals:</strong> My goal with this project is to create a space with which I can 'sell my skills'. The page will function as a living gallery of my progress in web development, and will showcase my skills for potential employers or clients.</p>
+			<p><strong>Header:</strong></p>
+				<ul>
+					<li>Personal logo</li>
+					<li>Title text - Font: Anonymous Pro</li>
+					<li>Navbar:
+						<ul>
+							<li>Github</li>
+							<li>LinkedIn</li>
+							<li>Button for <code>&lt;form&gt;</code> - JS/jquery "slide" display</li>
+						</ul>
+					</li>
+				</ul>
+			<p><strong>Body:</strong></p>
+				<ul>
+					<li><code>&lt;div&gt;</code> containing each post:
+						<ul>
+							<li>Post title</li>
+							<li>Timestamp</li>
+							<li>Image of project (if applicable)</li>
+							<li>Text description of project</li>
+						</ul>
+					</li>
+				</ul>
+			<p><strong>Footer:</strong> not included (for now). I just don't think I have any content or links that necessitate a footer.</p>
+		</div>
+		<div id="wireframeContainer">
+			<h3 class="subject">Wireframe</h3>
+			<img src="./wireframe.png" alt="wireframe diagram for this project">
 		</div>
 	</body>
 </html>
