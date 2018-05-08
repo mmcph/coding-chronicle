@@ -27,3 +27,22 @@ The content strategy here is highly technical, and I think it will suffice for t
 Please refer to the project specs here for instructions, and complete all revisions by Thursday 5/10 8:00am and I'll bump your grade to Tier II: 
 - https://bootcamp-coders.cnm.edu/projects/personal/milestone-two/ 
 - Sample Milestones: https://bootcamp-coders.cnm.edu/projects/personal/example/
+
+#### Update Milestone 2a Feedback
+Thanks for getting back to me and updating your docs. What I see here will provide you with a decent guide for your development phase. As I noted earlier (and I know you're aware) - please plan to include a contact form in your project. 
+
+In the header region I see a few notable differences between Mobile and Desktop - I think these can be easily handled with some `@media` queries, no problemo. I encourage you to apply these in a true mobile-first/progressive enhancement fashion. 
+
+I'd be careful of image scaling on smaller screens - they might take up just a bit too much screen "real-estate" at the scale they're represented here. When working with images, it's best that they be scaled and sized appropriately for web before importing them into the project.
+
+This simple and clean UI concept should be a breeze to create using the Bootstrap framework - so I challenge you to really go for a professional-level presentation and polish using CSS. Since you're coming into this class with previous CSS experience, if you'd like to experiment with SASS on this project as well, that's also an option I'd like to extend to you. The [Codrops](https://tympanus.net/codrops/) blog is a great source of inspiration for UI design and effects, and some cool things can be done with [Waypoints](http://imakewebthings.com/waypoints/) and [Animate.css](https://daneden.github.io/animate.css/) together. Just some ideas.
+
+Last but not least, [FontAwesome](https://fontawesome.com/) is a good quality free library for including iconography. Custom icons are also an option too - of course.
+
+As I'm sure you're aware, a project like this would really be best suited to a proper blogging platform like WordPress, Drupal, Ghost, Anchor or others. But unfortunately that's out-of-scope for this tiny project.
+
+You may want to read ahead regarding the contact form integration - and that documentation is here: https://bootcamp-coders.cnm.edu/class-materials/jquery-validated-captcha-form/
+
+Your Milestone 2a passes at [Tier II](https://bootcamp-coders.cnm.edu/projects/personal/rubric/). You are clear to begin development on your PWP.
+
+**We'll be building PWP in a file named index.php inside of /public_html**. Please note that no publicly-accessible site files should live outside of the /public_html directory. Remember use an organized and standards-compliant directory structure to house all images, JavaScript, CSS, etc. We are done with the /documentation directory for now!
