@@ -1,10 +1,9 @@
 <!doctype html>
 <html lang="en">
 	<head>
-		<!-- Required meta tags -->
+		<!-- META -->
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
 		<!-- Bootstrap CSS -->
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
 		<!--Google Fonts-->
@@ -18,7 +17,7 @@
 	<body>
 		<!--NAVBAR-->
 		<nav class="navbar navbar-expand-lg navbar-default">
-			<a class="navbar-brand" href="#">coding-chronicle:~$ <span id="titleText" class="d-none d-xl-inline-block">Marlon <span id="mAlign">M</span><span id="supC">c</span>Pherson's course through the web development world<span id="blockChar">&#9616;</span></span></a>
+			<a id="homeLink" class="navbar-brand" href="#">coding-chronicle:~$ </a><span id="titleText" class="d-none d-xl-inline-block navbar-brand">Marlon <span id="mAlign">M</span><span id="supC">c</span>Pherson's course through the web development world<span id="blockChar">&#9616;</span></span>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
 			</button>
