@@ -16,30 +16,84 @@
 	</head>
 	<body>
 		<!--NAVBAR-->
-		<nav class="navbar navbar-expand-lg navbar-default">
-			<a id="homeLink" class="navbar-brand" href="#">coding-chronicle:~$ </a><span id="titleText" class="d-none d-xl-inline-block navbar-brand">Marlon <span id="mAlign">M</span><span id="supC">c</span>Pherson's course through the web development world<span id="blockChar">&#9616;</span></span>
+		<nav class="navbar navbar-expand-lg navbar-default fixed-top">
+			<a id="homeLink" class="navbar-brand" href="#top">coding-chronicle:~$ </a><span id="titleText" class="d-none d-xl-inline-block navbar-brand">Marlon <span id="mAlign">M</span><span id="supC">c</span>Pherson's course through the web development world<span id="blockChar">&#9616;</span></span>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
 			</button>
-
+			<!--NAV LINKS-->
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
 				<ul class="navbar-nav ml-auto">
 					<li class="nav-item">
-						<a class="nav-link" href="#"><i class="fab fa-github-square"></i></a>
+						<a class="nav-link" href="https://github.com/mmcph"><i class="fab fa-github-square"></i></a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#"><i class="fab fa-linkedin"></i></a>
+						<a class="nav-link" href="https://www.linkedin.com/in/mmcph"><i class="fab fa-linkedin"></i></a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#"><i class="fab fa-twitter-square"></i></a>
+						<a class="nav-link" href="https://twitter.com/mmcphdev"><i class="fab fa-twitter-square"></i></a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="#"><i class="fas fa-envelope-square"></i></a>
 					</li>
 			</div>
 		</nav>
+<!--CONTENT-->
+		<div class="container">
+			<div class="postContainer container-fluid">
+				<h1 class="postTitle">Post Title</h1><h1 class="postDate d-none d-lg-inline-block">Post Date</h1>
+				<div class="row container-fluid">
+					<div class="thumbContainer col-lg-4 col-md-3"><a href="" class="postImgLink"><img src="https://i.imgur.com/KJbr2SL.png" class="img-fluid"></a></div>
+					<div class="textContainer col-lg-8 col-md-9">
+						<p class="postContent">Lorem ipsum dolor sit amet, mei et singulis dissentias. Error graeci aliquid nec ea. Impetus euripidis maiestatis eum te, ei conceptam concludaturque his. Vel dolore copiosae delicata eu, ad minim apeirian mediocritatem usu. Cu adhuc lorem laboramus sed. Et alii nonumes oportere eum, no usu offendit appareat perfecto, est ne erat inermis persequeris.
 
+							Phaedrum voluptatibus his ei, an quo possim officiis scripserit. Ius nostrud denique ex. Veri bonorum torquatos ex sed. Mel ex tation graecis. Legendos principes cu has, ad usu minim sanctus reformidans.</p>
+					</div>
+				</div>
+			</div>
+		</div>
 
+		<div class="container">
+			<div class="postContainer container-fluid">
+				<h1 class="postTitle">Post Title</h1><h1 class="postDate d-none d-lg-inline-block">Post Date</h1>
+				<div class="row container-fluid">
+					<div class="thumbContainer col-lg-4 col-md-3"><a href="" class="postImgLink"><img src="https://i.imgur.com/KJbr2SL.png" class="img-fluid"></a></div>
+					<div class="textContainer col-lg-8 col-md-9">
+						<p class="postContent">Lorem ipsum dolor sit amet, mei et singulis dissentias. Error graeci aliquid nec ea. Impetus euripidis maiestatis eum te, ei conceptam concludaturque his. Vel dolore copiosae delicata eu, ad minim apeirian mediocritatem usu. Cu adhuc lorem laboramus sed. Et alii nonumes oportere eum, no usu offendit appareat perfecto, est ne erat inermis persequeris.
+
+							Phaedrum voluptatibus his ei, an quo possim officiis scripserit. Ius nostrud denique ex. Veri bonorum torquatos ex sed. Mel ex tation graecis. Legendos principes cu has, ad usu minim sanctus reformidans.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="postContainer container-fluid">
+				<h1 class="postTitle">Post Title</h1><h1 class="postDate d-none d-lg-inline-block">Post Date</h1>
+				<div class="row container-fluid">
+					<div class="thumbContainer col-lg-4 col-md-3"><a href="" class="postImgLink"><img src="https://i.imgur.com/KJbr2SL.png" class="img-fluid"></a></div>
+					<div class="textContainer col-lg-8 col-md-9">
+						<p class="postContent">Lorem ipsum dolor sit amet, mei et singulis dissentias. Error graeci aliquid nec ea. Impetus euripidis maiestatis eum te, ei conceptam concludaturque his. Vel dolore copiosae delicata eu, ad minim apeirian mediocritatem usu. Cu adhuc lorem laboramus sed. Et alii nonumes oportere eum, no usu offendit appareat perfecto, est ne erat inermis persequeris.
+
+							Phaedrum voluptatibus his ei, an quo possim officiis scripserit. Ius nostrud denique ex. Veri bonorum torquatos ex sed. Mel ex tation graecis. Legendos principes cu has, ad usu minim sanctus reformidans.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="postContainer container-fluid">
+				<h1 class="postTitle">Post Title</h1><h1 class="postDate d-none d-lg-inline-block">Post Date</h1>
+				<div class="row container-fluid">
+					<div class="thumbContainer col-lg-4 col-md-3"><a href="" class="postImgLink"><img src="https://i.imgur.com/KJbr2SL.png" class="img-fluid"></a></div>
+					<div class="textContainer col-lg-8 col-md-9">
+						<p class="postContent">Lorem ipsum dolor sit amet, mei et singulis dissentias. Error graeci aliquid nec ea. Impetus euripidis maiestatis eum te, ei conceptam concludaturque his. Vel dolore copiosae delicata eu, ad minim apeirian mediocritatem usu. Cu adhuc lorem laboramus sed. Et alii nonumes oportere eum, no usu offendit appareat perfecto, est ne erat inermis persequeris.
+
+							Phaedrum voluptatibus his ei, an quo possim officiis scripserit. Ius nostrud denique ex. Veri bonorum torquatos ex sed. Mel ex tation graecis. Legendos principes cu has, ad usu minim sanctus reformidans.</p>
+					</div>
+				</div>
+			</div>
+		</div>
 
 
 		<!--JQ/JS-->
