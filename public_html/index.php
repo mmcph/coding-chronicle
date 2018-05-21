@@ -17,7 +17,7 @@
 	<body>
 		<!--NAVBAR-->
 		<nav class="navbar navbar-expand-lg navbar-default fixed-top">
-			<a id="homeLink" class="navbar-brand" href="#top">coding-chronicle:~$ </a><span id="titleText" class="d-none d-xl-inline-block navbar-brand">Marlon <span id="mAlign">M</span><span id="supC">c</span>Pherson's course through the web development world<span id="blockChar">&#9616;</span></span>
+			<a id="homeLink" class="navbar-brand" href="#top">coding-chronicle:~$ </a><span id="titleText" class="d-none d-xl-inline-block navbar-brand">Marlon <span id="mAlign">M</span><span id="supC">c</span>Pherson's course through the web dev world<span id="blockChar">&#9616;</span></span>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
 			</button>
@@ -94,6 +94,8 @@
 				</div>
 			</div>
 		</div>
+
+
 
 
 		<!--JQ/JS-->
