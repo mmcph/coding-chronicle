@@ -46,3 +46,6 @@ You may want to read ahead regarding the contact form integration - and that doc
 Your Milestone 2a passes at [Tier II](https://bootcamp-coders.cnm.edu/projects/personal/rubric/). You are clear to begin development on your PWP.
 
 **We'll be building PWP in a file named index.php inside of /public_html**. Please note that no publicly-accessible site files should live outside of the /public_html directory. Remember use an organized and standards-compliant directory structure to house all images, JavaScript, CSS, etc. We are done with the /documentation directory for now!
+
+### Milestone 2b Feedback
+Nice work on PWP - this is looking great. Meeting notes left via Slack. Your Milestone 2b passes at [Tier IV](https://bootcamp-coders.cnm.edu/projects/personal/rubric/)
