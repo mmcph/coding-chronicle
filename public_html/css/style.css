@@ -151,7 +151,7 @@ span.input-group-text {
 }
 
 input.form-control, textarea.form-control {
-	background-color: #00242D;
+	background-color: #005166;
 	color: #00161C;
 }
 
@@ -159,6 +159,6 @@ input.form-control, textarea.form-control {
 	color: #B6FF00;
 }
 
-input::placeholder, textarea::placeholder {
-	color: #002833;
+.g-recaptcha {
+	margin: 10px 0;
 }

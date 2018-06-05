@@ -19,12 +19,12 @@
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
 
 		<!-- jQuery Form, Additional Methods, Validate -->
-		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
-		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
-		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>
 
 		<!-- Google reCAPTCHA -->
-		<script src='https://www.google.com/recaptcha/api.js'></script>
+		<script src="https://www.google.com/recaptcha/api.js"></script>
 
 		<!--form-validate-->
 		<script src="js/form-validate.js"></script>
@@ -49,13 +49,13 @@
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
 				<ul class="navbar-nav ml-auto">
 					<li class="nav-item">
-						<a class="nav-link" href="https://github.com/mmcph"><i class="navIcon fab fa-github-square"></i></a>
+						<a class="nav-link" href="https://github.com/mmcph" target="_blank"><i class="navIcon fab fa-github-square"></i></a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="https://www.linkedin.com/in/mmcph"><i class="navIcon fab fa-linkedin"></i></a>
+						<a class="nav-link" href="https://www.linkedin.com/in/mmcph" target="_blank"><i class="navIcon fab fa-linkedin"></i></a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="https://twitter.com/mmcphdev"><i class="navIcon fab fa-twitter-square"></i></a>
+						<a class="nav-link" href="https://twitter.com/mmcphdev" target="_blank"><i class="navIcon fab fa-twitter-square"></i></a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="#bottom"><i class="navIcon fas fa-envelope-square"></i></a>
@@ -177,6 +177,7 @@
 			<button class="btn btn-default" type="reset">Reset</button>
 
 		</form>
+		<div id="output-area"></div>
 	</div>
 </div>
 
