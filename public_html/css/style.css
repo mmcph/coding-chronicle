@@ -50,7 +50,7 @@ body {
 	color: lightgray;
 }
 
-.fas, .fab {
+.navIcon {
 	color: #B6FF00;
 	font-size: 1.8em;
 	/*margin-left: 10px;*/
@@ -61,7 +61,7 @@ body {
 	transition-timing-function: ease-out;
 }
 
-.fas:hover, .fab:hover, .fas:focus, .fab:focus, .fas:active, .fab:active {
+.navIcon:hover, .navIcon:focus, .navIcon:active {
 	color: #FAFF00;
 	text-shadow: #FAFF00 0 0 7px;
 }
@@ -141,4 +141,24 @@ h1.postDate {
 .postContent {
 	color: #7AABFF;
 	padding-left: 5px;
+}
+
+
+/*FORM*/
+
+span.input-group-text {
+	background-color: #001C23;
+}
+
+input.form-control, textarea.form-control {
+	background-color: #00242D;
+	color: #00161C;
+}
+
+.formIcon {
+	color: #B6FF00;
+}
+
+input::placeholder, textarea::placeholder {
+	color: #002833;
 }
