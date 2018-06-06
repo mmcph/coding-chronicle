@@ -45,14 +45,12 @@
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"><i class="navIcon fas fa-bars"></i></span>
 			</button>
-<!--			NAV LINKS-->
+<!--NAV LINKS-->
 
 <!--			todo URL redirect when ready to deploy!-->
 <!--			todo change resume email to marlon@codingchronicle.com-->
 <!--			todo create email acct on cpanel if I want to send mail from cc.com - use mozilla thunderbird-->
-<!--			todo need to make DB to use wordpress/drupal-->
 
-<!--			MAKE LINKS GO TO NEW TAB!-->
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
 				<ul class="navbar-nav ml-auto">
 					<li class="nav-item">
@@ -72,21 +70,50 @@
 					</li>
 			</div>
 		</nav>
-<!--CONTENT-->
+
+<!--PROJECTS-->
 		<div class="container">
 			<div class="postContainer container-fluid">
-				<h1 id="projectsTitle">Coding Projects</h1>
+				<h1 id="contentTitle">Coding Projects</h1>
 			</div>
 		</div>
 		<div class="container">
 			<div class="postContainer container-fluid">
-				<h1 class="postTitle">Post Title</h1><h1 class="postDate d-none d-lg-inline-block">Post Date</h1>
+				<h1 class="postTitle">Food Truck Found</h1><h1 class="postDate d-none d-lg-inline-block">4 June 2018</h1>
 				<div class="row container-fluid">
-					<div class="thumbContainer col-lg-4 col-md-3"><a href="" class="postImgLink"><img src="https://i.imgur.com/KJbr2SL.png" class="img-fluid"></a></div>
+					<div class="thumbContainer col-lg-4 col-md-3"><img src="https://i.imgur.com/ETGr3aA.png" class="img-fluid"></div>
 					<div class="textContainer col-lg-8 col-md-9">
-						<p class="postContent">Lorem ipsum dolor sit amet, mei et singulis dissentias. Error graeci aliquid nec ea. Impetus euripidis maiestatis eum te, ei conceptam concludaturque his. Vel dolore copiosae delicata eu, ad minim apeirian mediocritatem usu. Cu adhuc lorem laboramus sed. Et alii nonumes oportere eum, no usu offendit appareat perfecto, est ne erat inermis persequeris.
+						<p class="postContent"><a href="https://www.github.com/mmcph/food-truck-finder" title="capstone repository">Github Repository</a></p>
+						<br>
+						<p class="postContent">This is my group's capstone project for Deep Dive Coding's full-stack web development bootcamp. Food Truck Found is an app that connects potential customers to food trucks in the Albuquerque area. Food truck owners are able to post their business information, let users know when they're open for business, and post their location to a live Google Map. Users are able to search for food trucks based on the type(s) of food they serve, add food trucks to a list of personal favorites, and upvote/downvote a food truck. My group (Yvette Johnson-Rodgers, G Cordova, and Manuel Escobar) and I coded this app from the ground up using all of the technologies that we've learned over the past 9 weeks. We built a full back-end in PHP and MySQL, wrote RESTful APIs, and crafted a front-end with Angular, HTML, CSS, Bootstrap, and Google Maps API.</p>
+					</div>
+				</div>
+			</div>
+		</div>
 
-							Phaedrum voluptatibus his ei, an quo possim officiis scripserit. Ius nostrud denique ex. Veri bonorum torquatos ex sed. Mel ex tation graecis. Legendos principes cu has, ad usu minim sanctus reformidans.</p>
+		<div class="container">
+			<div class="postContainer container-fluid">
+				<h1 class="postTitle">Personal Site</h1><h1 class="postDate d-none d-lg-inline-block">4 June 2018</h1>
+				<div class="row container-fluid">
+					<div class="thumbContainer col-lg-4 col-md-3"><img src="https://i.imgur.com/KJbr2SL.png" class="img-fluid"></div>
+					<div class="textContainer col-lg-8 col-md-9">
+						<p class="postContent"><a href="http://www.marlonmc.com/testsite/index.html" title="my first site">marlonmc.com</a></p>
+						<br>
+						<p class="postContent">Prior to joining Deep Dive Coding's full-stack web development bootcamp, I was enrolled in a bootcamp-style course on <a href="https://www.udemy.com/" title="shameless Udemy plug">Udemy</a>. I had a passing familiarity with the basic concepts of front-end technology before enrolling, but this course was my first time truly immersing myself in the coding world. With the knowledge I gained, I built this site. Though it's a work in progress (and will likely remain that way until I re-purpose the domain), I was nonetheless satisfied with my ability to get this much done after so short a time (at the time of this posting, I've been coding for about six months). Shortly after coding this up, I joined the Deep Dive Coding bootcamp - the site you're currently on is the successor to this first venture into the world of web development. I learned a lot from tinkering with this site, just as I've learned from creating coding chronicle. One day I'll be able to look back at this project and see how far I've come. It's all uphill from here, and I'm looking forward to the climb.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="postContainer container-fluid">
+				<h1 class="postTitle">jQuery To-Do List</h1><h1 class="postDate d-none d-lg-inline-block">4 June 2018</h1>
+				<div class="row container-fluid">
+					<div class="thumbContainer col-lg-4 col-md-3"><img src="https://i.imgur.com/KJbr2SL.png" class="img-fluid"></div>
+					<div class="textContainer col-lg-8 col-md-9">
+						<p class="postContent"><a href="http://www.marlonmc.com/ToDo/index.html" title="my first jQuery project">jQuery To-Do List</a></p>
+						<br>
+						<p class="postContent">The Udemy web development bootcamp that I was enrolled in when I first started coding focused on jQuery rather than vanilla JS. In order to practice with and understand the basic concepts behind JS/jQuery scripts, I wrote this simple to-do list. I enjoy how succinct and feature-rich jQuery is, but I get the impression that its ubiquity is waning. Considering the demand for JavaScript developers, I will mainly be focused on JS after I get my certificate and enter the coding world as a junior developer.</p>
 					</div>
 				</div>
 			</div>
@@ -106,33 +133,14 @@
 			</div>
 		</div>
 
+<!--BLOG POSTS-->
 		<div class="container">
 			<div class="postContainer container-fluid">
-				<h1 class="postTitle">Post Title</h1><h1 class="postDate d-none d-lg-inline-block">Post Date</h1>
-				<div class="row container-fluid">
-					<div class="thumbContainer col-lg-4 col-md-3"><a href="" class="postImgLink"><img src="https://i.imgur.com/KJbr2SL.png" class="img-fluid"></a></div>
-					<div class="textContainer col-lg-8 col-md-9">
-						<p class="postContent">Lorem ipsum dolor sit amet, mei et singulis dissentias. Error graeci aliquid nec ea. Impetus euripidis maiestatis eum te, ei conceptam concludaturque his. Vel dolore copiosae delicata eu, ad minim apeirian mediocritatem usu. Cu adhuc lorem laboramus sed. Et alii nonumes oportere eum, no usu offendit appareat perfecto, est ne erat inermis persequeris.
-
-							Phaedrum voluptatibus his ei, an quo possim officiis scripserit. Ius nostrud denique ex. Veri bonorum torquatos ex sed. Mel ex tation graecis. Legendos principes cu has, ad usu minim sanctus reformidans.</p>
-					</div>
-				</div>
+				<h1 id="contentTitle">Reflections</h1>
 			</div>
 		</div>
 
-		<div class="container">
-			<div class="postContainer container-fluid">
-				<h1 class="postTitle">Post Title</h1><h1 class="postDate d-none d-lg-inline-block">Post Date</h1>
-				<div class="row container-fluid">
-					<div class="thumbContainer col-lg-4 col-md-3"><a href="" class="postImgLink"><img src="https://i.imgur.com/KJbr2SL.png" class="img-fluid"></a></div>
-					<div class="textContainer col-lg-8 col-md-9">
-						<p class="postContent">Lorem ipsum dolor sit amet, mei et singulis dissentias. Error graeci aliquid nec ea. Impetus euripidis maiestatis eum te, ei conceptam concludaturque his. Vel dolore copiosae delicata eu, ad minim apeirian mediocritatem usu. Cu adhuc lorem laboramus sed. Et alii nonumes oportere eum, no usu offendit appareat perfecto, est ne erat inermis persequeris.
-
-							Phaedrum voluptatibus his ei, an quo possim officiis scripserit. Ius nostrud denique ex. Veri bonorum torquatos ex sed. Mel ex tation graecis. Legendos principes cu has, ad usu minim sanctus reformidans.</p>
-					</div>
-				</div>
-			</div>
-		</div>
+<!--CONTACT FORM-->
 	<div class="spacer"></div>
 	<div class="footer">
 		<div class="container">
