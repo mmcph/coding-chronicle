@@ -1,9 +1,16 @@
+html {
+
+}
 
 body {
 	font-family: 'Anonymous Pro', monospace;
-	background-color: #002833;
+	/*background-color: #002833;*/
 	padding-top: 70px;
 	padding-bottom: 20px;
+	background:
+		linear-gradient(0deg, rgba(0, 40, 51, 0.5), rgba(0, 40, 51, 0.5)) no-repeat center center fixed,
+		url("https://i.imgur.com/kBsjqwj.png") no-repeat center center fixed;
+	background-size: cover;
 }
 
 /*NAVBAR*/
@@ -90,6 +97,14 @@ body {
 
 /*CONTENT*/
 
+#projectsTitle {
+	color: #B6FF00;
+	font-size: 2.1em;
+	text-align: center;
+	text-shadow: 0 0 15px black;
+	margin-top: 10px;
+}
+
 .postContainer {
 	border: 3px solid #00161C;
 }
@@ -112,7 +127,7 @@ h1.postTitle {
 	color: #B6FF00;
 	font-size: 2em;
 	text-shadow: #000 0 0 4px;
- }
+}
 
 h1.postDate {
 	display: inline-block;
@@ -146,13 +161,36 @@ h1.postDate {
 
 /*FORM*/
 
+div.col-md-4 {
+	margin-top: 15px;
+}
+
+.messageDiv {
+	margin-top: 15px;
+}
+
 span.input-group-text {
 	background-color: #001C23;
+	border-radius: unset;
+	border-color: #00161C;
+	border-width: 3px;
+	outline: none;
+	margin-top: 0;
 }
 
 input.form-control, textarea.form-control {
 	background-color: #005166;
 	color: #00161C;
+	padding: 5px 5px;
+	border-radius: unset;
+	border-color: #00161C;
+	border-width: 3px;
+	outline-style: none;
+	margin-top: 0;
+}
+
+input.form-control:active, textarea.form-control:active, input.form-control:focus, textarea.form-control:focus {
+	outline-style: none;
 }
 
 .formIcon {
@@ -160,5 +198,22 @@ input.form-control, textarea.form-control {
 }
 
 .g-recaptcha {
-	margin: 10px 0;
+	margin: 30px 0;
+}
+
+.alert-danger {
+	margin-top: 15px;
+}
+
+label {
+	display: none;
+}
+
+.spacer {
+	height: 15px
+}
+
+.btn-info, .btn-default {
+	margin-bottom: 15px;
+	margin-right: 25px;
 }

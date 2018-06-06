@@ -4,12 +4,16 @@
 		<!-- META -->
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
 		<!-- Bootstrap CSS -->
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
 		<!--Google Fonts-->
 		<link href="https://fonts.googleapis.com/css?family=Anonymous+Pro" rel="stylesheet">
+
 		<!--FontAwesome-->
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
 		<!-- Custom CSS -->
 		<link rel="stylesheet" href="css/style.css" type="text/css">
 
@@ -28,6 +32,9 @@
 
 		<!--form-validate-->
 		<script src="js/form-validate.js"></script>
+
+		<!--favicon-->
+		<link rel="icon" href="https://i.imgur.com/KJbr2SL.png">
 
 		<title>Coding Chronicle</title>
 	</head>
@@ -58,25 +65,19 @@
 						<a class="nav-link" href="https://twitter.com/mmcphdev" target="_blank"><i class="navIcon fab fa-twitter-square"></i></a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#bottom"><i class="navIcon fas fa-envelope-square"></i></a>
+						<a class="nav-link" href="#posts" data-toggle="tooltip" data-placement="bottom" title="Blog Posts"><i class="navIcon fas fa-pen-square"></i></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#contact"><i class="navIcon fas fa-envelope-square"></i></a>
 					</li>
 			</div>
 		</nav>
 <!--CONTENT-->
 		<div class="container">
 			<div class="postContainer container-fluid">
-				<h1 class="postTitle">Post Title</h1><h1 class="postDate d-none d-lg-inline-block">Post Date</h1>
-				<div class="row container-fluid">
-					<div class="thumbContainer col-lg-4 col-md-3"><a href="" class="postImgLink"><img src="https://i.imgur.com/KJbr2SL.png" class="img-fluid"></a></div>
-					<div class="textContainer col-lg-8 col-md-9">
-						<p class="postContent">Lorem ipsum dolor sit amet, mei et singulis dissentias. Error graeci aliquid nec ea. Impetus euripidis maiestatis eum te, ei conceptam concludaturque his. Vel dolore copiosae delicata eu, ad minim apeirian mediocritatem usu. Cu adhuc lorem laboramus sed. Et alii nonumes oportere eum, no usu offendit appareat perfecto, est ne erat inermis persequeris.
-
-							Phaedrum voluptatibus his ei, an quo possim officiis scripserit. Ius nostrud denique ex. Veri bonorum torquatos ex sed. Mel ex tation graecis. Legendos principes cu has, ad usu minim sanctus reformidans.</p>
-					</div>
-				</div>
+				<h1 id="projectsTitle">Coding Projects</h1>
 			</div>
 		</div>
-
 		<div class="container">
 			<div class="postContainer container-fluid">
 				<h1 class="postTitle">Post Title</h1><h1 class="postDate d-none d-lg-inline-block">Post Date</h1>
@@ -119,68 +120,82 @@
 			</div>
 		</div>
 
-<div class="footer">
-	<div class="container">
-		<form id="pwp-form" method="post" action="php/mailer.php">
-			<div class="row">
-				<div class="col-md-4">
-					<div class="form-group">
-						<label for="pwpName">Name</label>
-						<div class="input-group">
-							<div class="input-group-prepend">
-								<span class="input-group-text"><i class="formIcon fa fa-user"></i></span>
-							</div>
-							<input class="form-control" type="text" name="pwpName" id="pwpName" placeholder="Your Name">
-						</div>
-					</div>
-				</div>
+		<div class="container">
+			<div class="postContainer container-fluid">
+				<h1 class="postTitle">Post Title</h1><h1 class="postDate d-none d-lg-inline-block">Post Date</h1>
+				<div class="row container-fluid">
+					<div class="thumbContainer col-lg-4 col-md-3"><a href="" class="postImgLink"><img src="https://i.imgur.com/KJbr2SL.png" class="img-fluid"></a></div>
+					<div class="textContainer col-lg-8 col-md-9">
+						<p class="postContent">Lorem ipsum dolor sit amet, mei et singulis dissentias. Error graeci aliquid nec ea. Impetus euripidis maiestatis eum te, ei conceptam concludaturque his. Vel dolore copiosae delicata eu, ad minim apeirian mediocritatem usu. Cu adhuc lorem laboramus sed. Et alii nonumes oportere eum, no usu offendit appareat perfecto, est ne erat inermis persequeris.
 
-				<div class="col-md-4">
-					<div class="form-group">
-						<label for="pwpEmail">Email</label>
-						<div class="input-group">
-							<div class="input-group-prepend">
-								<span class="input-group-text"><i class="formIcon fa fa-envelope"></i></span>
-							</div>
-							<input class="form-control" type="email" name="pwpEmail" id="pwpEmail" placeholder="Your Email">
-						</div>
-					</div>
-				</div>
-
-				<div class="col-md-4">
-					<div class="form-group">
-						<label for="pwpSubject">Subject</label>
-						<div class="input-group">
-							<div class="input-group-prepend">
-								<span class="input-group-text"><i class="formIcon fa fa-comment"></i></span>
-							</div>
-							<input class="form-control" type="text" name="pwpSubject" id="pwpSubject" placeholder="Subject">
-						</div>
+							Phaedrum voluptatibus his ei, an quo possim officiis scripserit. Ius nostrud denique ex. Veri bonorum torquatos ex sed. Mel ex tation graecis. Legendos principes cu has, ad usu minim sanctus reformidans.</p>
 					</div>
 				</div>
 			</div>
-
-			<div class="form-group">
-				<label for="pwpMessage">Message</label>
-				<div class="input-group">
-					<div class="input-group-prepend">
-						<span class="input-group-text"><i class="formIcon fas fa-edit"></i></span>
+		</div>
+	<div class="spacer"></div>
+	<div class="footer">
+		<div class="container">
+			<form id="pwp-form" method="post" action="php/mailer.php">
+				<div class="row">
+					<div class="col-md-4">
+						<div class="form-group">
+							<label for="pwpName">Name</label>
+							<div class="input-group">
+								<div class="input-group-prepend">
+									<span class="input-group-text"><i class="formIcon fa fa-user"></i></span>
+								</div>
+								<input class="form-control" type="text" name="pwpName" id="pwpName" placeholder="Your Name">
+							</div>
+						</div>
 					</div>
-					<textarea name="pwpMessage" rows="6" id="pwpMessage" class="form-control" placeholder="Your Message (2000 characters max)"></textarea>
+
+					<div class="col-md-4">
+						<div class="form-group">
+							<label for="pwpEmail">Email</label>
+							<div class="input-group">
+								<div class="input-group-prepend">
+									<span class="input-group-text"><i class="formIcon fa fa-envelope"></i></span>
+								</div>
+								<input class="form-control" type="email" name="pwpEmail" id="pwpEmail" placeholder="Your Email">
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-4">
+						<div class="form-group">
+							<label for="pwpSubject">Subject</label>
+							<div class="input-group">
+								<div class="input-group-prepend">
+									<span class="input-group-text"><i class="formIcon fa fa-comment"></i></span>
+								</div>
+								<input class="form-control" type="text" name="pwpSubject" id="pwpSubject" placeholder="Subject">
+							</div>
+						</div>
+					</div>
 				</div>
-			</div>
 
-			<!--							RECAPTCHA-->
-			<div class="g-recaptcha" data-sitekey="6LenZlwUAAAAACHelIgj395loGCGGoFSmmm1IGUq"></div>
+				<div class="form-group messageDiv">
+					<label for="pwpMessage">Message</label>
+					<div class="input-group">
+						<div class="input-group-prepend">
+							<span class="input-group-text"><i class="formIcon fas fa-edit"></i></span>
+						</div>
+						<textarea name="pwpMessage" rows="6" id="pwpMessage" class="form-control" placeholder="Your Message (2000 characters max)"></textarea>
+					</div>
+				</div>
 
-			<button class="btn btn-info" type="submit">Submit</button>
-			<button class="btn btn-default" type="reset">Reset</button>
+				<!--							RECAPTCHA-->
+				<div class="g-recaptcha" data-sitekey="6LenZlwUAAAAACHelIgj395loGCGGoFSmmm1IGUq"></div>
 
-		</form>
-		<div id="output-area"></div>
+				<button class="btn btn-info" type="submit">Send</button>
+				<button class="btn btn-default" type="reset">Reset</button>
+
+			</form>
+			<div id="output-area"></div>
+		</div>
 	</div>
-</div>
 
-<div id="bottom"></div>
-	</body>
+	<div id="contact"></div>
+</body>
 </html>
