@@ -71,6 +71,15 @@
 			</div>
 		</nav>
 
+<!--ABOUT ME-->
+		<div class="container">
+			<div class="postContainer container-fluid">
+				<h1 id="contentTitle">About Me</h1>
+				<p class="postContent">I am a web developer and writer. I completed my web development certification at Deep Dive Coding, part of CNM’s Ingenuity program. This ten-week bootcamp-style course familiarized me with HTML, CSS, Javascript, Angular, Bootstrap, PHP, and mySQL, and prepared me to enter the industry as a full-stack developer. I graduated from UNM in 2015 with a bachelor’s in English and a minor in art studio. My language, communication, and design skills, combined with my newfound passion for coding, enable me to create sleek, professional web content for a variety of applications.</p>
+			</div>
+		</div>
+		<div class="contentSpacer"></div>
+
 <!--PROJECTS-->
 		<div class="container">
 			<div class="postContainer container-fluid">
@@ -109,7 +118,7 @@
 			<div class="postContainer container-fluid">
 				<h1 class="postTitle">jQuery To-Do List</h1><h1 class="postDate d-none d-lg-inline-block">4 June 2018</h1>
 				<div class="row container-fluid">
-					<div class="thumbContainer col-lg-4 col-md-3"><img src="https://i.imgur.com/KJbr2SL.png" class="img-fluid"></div>
+					<div class="thumbContainer col-lg-4 col-md-3"><img src="https://i.imgur.com/eTKFGru.png" class="img-fluid"></div>
 					<div class="textContainer col-lg-8 col-md-9">
 						<p class="postContent"><a href="http://www.marlonmc.com/ToDo/index.html" title="my first jQuery project">jQuery To-Do List</a></p>
 						<br>
@@ -118,91 +127,123 @@
 				</div>
 			</div>
 		</div>
+		<div id="posts"></div>
+		<div class="contentSpacer"></div>
 
-		<div class="container">
-			<div class="postContainer container-fluid">
-				<h1 class="postTitle">Post Title</h1><h1 class="postDate d-none d-lg-inline-block">Post Date</h1>
-				<div class="row container-fluid">
-					<div class="thumbContainer col-lg-4 col-md-3"><a href="" class="postImgLink"><img src="https://i.imgur.com/KJbr2SL.png" class="img-fluid"></a></div>
-					<div class="textContainer col-lg-8 col-md-9">
-						<p class="postContent">Lorem ipsum dolor sit amet, mei et singulis dissentias. Error graeci aliquid nec ea. Impetus euripidis maiestatis eum te, ei conceptam concludaturque his. Vel dolore copiosae delicata eu, ad minim apeirian mediocritatem usu. Cu adhuc lorem laboramus sed. Et alii nonumes oportere eum, no usu offendit appareat perfecto, est ne erat inermis persequeris.
-
-							Phaedrum voluptatibus his ei, an quo possim officiis scripserit. Ius nostrud denique ex. Veri bonorum torquatos ex sed. Mel ex tation graecis. Legendos principes cu has, ad usu minim sanctus reformidans.</p>
-					</div>
-				</div>
-			</div>
-		</div>
-
-<!--BLOG POSTS-->
+		<!--BLOG POSTS-->
 		<div class="container">
 			<div class="postContainer container-fluid">
 				<h1 id="contentTitle">Reflections</h1>
 			</div>
 		</div>
 
-<!--CONTACT FORM-->
-	<div class="spacer"></div>
-	<div class="footer">
 		<div class="container">
-			<form id="pwp-form" method="post" action="php/mailer.php">
-				<div class="row">
-					<div class="col-md-4">
-						<div class="form-group">
-							<label for="pwpName">Name</label>
-							<div class="input-group">
-								<div class="input-group-prepend">
-									<span class="input-group-text"><i class="formIcon fa fa-user"></i></span>
-								</div>
-								<input class="form-control" type="text" name="pwpName" id="pwpName" placeholder="Your Name">
-							</div>
-						</div>
-					</div>
-
-					<div class="col-md-4">
-						<div class="form-group">
-							<label for="pwpEmail">Email</label>
-							<div class="input-group">
-								<div class="input-group-prepend">
-									<span class="input-group-text"><i class="formIcon fa fa-envelope"></i></span>
-								</div>
-								<input class="form-control" type="email" name="pwpEmail" id="pwpEmail" placeholder="Your Email">
-							</div>
-						</div>
-					</div>
-
-					<div class="col-md-4">
-						<div class="form-group">
-							<label for="pwpSubject">Subject</label>
-							<div class="input-group">
-								<div class="input-group-prepend">
-									<span class="input-group-text"><i class="formIcon fa fa-comment"></i></span>
-								</div>
-								<input class="form-control" type="text" name="pwpSubject" id="pwpSubject" placeholder="Subject">
-							</div>
-						</div>
-					</div>
+			<div class="postContainer container-fluid">
+				<h1 class="postTitle">Bootcamp Week 1</h1><h1 class="postDate d-none d-lg-inline-block">20 April 2018</h1>
+				<div class="row container-fluid">
+					<p class="postContent">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The week went about as I expected it to go (like the first week in any course). Reviewing the syllabus, settling into routines, and meeting peers took up the first couple days. Since I had previous front-end experience coming into the course, almost all of the front-end centered lectures and activities were review for me. The review didn’t last long, since we jumped into mySQL and data design fairly soon after. This is all unfamiliar territory to me, so my previous experience means nothing. I expected more front-end review in a full stack course, so it was a bit surprising when we made the jump straight into databases. I feel the anxiety that comes with the pressure of learning new material (especially in a bootcamp setting), but I still feel confident in my ability to learn and apply the material. In other words, I haven’t stumbled off the ‘cliff of confusion’ yet, but I’m certainly open to the possibility - in fact, I welcome it. You’ve gotta fall down to learn how to stand up. Of course, I’ll do what I can to mitigate the fall, but I’m definitely expecting it. I first felt my toes poke over the edge when we discussed logarithms and bits/bytes. I don’t have a good understanding of math, so any math-oriented material will present an extra hurdle for me, but if I continue to devote 100% of my attention and effort in class, I know I’ll pull through.</p>
 				</div>
-
-				<div class="form-group messageDiv">
-					<label for="pwpMessage">Message</label>
-					<div class="input-group">
-						<div class="input-group-prepend">
-							<span class="input-group-text"><i class="formIcon fas fa-edit"></i></span>
-						</div>
-						<textarea name="pwpMessage" rows="6" id="pwpMessage" class="form-control" placeholder="Your Message (2000 characters max)"></textarea>
-					</div>
-				</div>
-
-				<!--							RECAPTCHA-->
-				<div class="g-recaptcha" data-sitekey="6LenZlwUAAAAACHelIgj395loGCGGoFSmmm1IGUq"></div>
-
-				<button class="btn btn-info" type="submit">Send</button>
-				<button class="btn btn-default" type="reset">Reset</button>
-
-			</form>
-			<div id="output-area"></div>
+			</div>
 		</div>
-	</div>
+
+		<div class="container">
+			<div class="postContainer container-fluid">
+				<h1 class="postTitle">Bootcamp Week 2</h1><h1 class="postDate d-none d-lg-inline-block">27 April 2018</h1>
+				<div class="row container-fluid">
+					<p class="postContent">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The second week of class has been a definite step up in terms of difficulty, a trend that I’m sure will continue. I’m still adapting, and there are some really important topics we covered that will apply to everything we do down the road - as long as I can understand those basic concepts, I’ll be able to fill in the cracks with logic and some Google-fu. Object-oriented programming was the focus of this week, and the analogy of ‘blueprint / building’ makes sense, as does encapsulation keeping data secure. Doc blocks are great because they’re right up my alley - keeping them short and sweet is imperative, and I can write well in shorthand to describe my code.</p>
+					<p class="postContent">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;From a personal development perspective, the week brought some big changes. Until (very) recently, I didn’t have much of an online presence. I had a Linkedin profile (only searchable if you know my full name) with only the barest of customization. I didn’t have a Twitter account either (I do now; still settling on an @ handle though). I don’t have any other social media, since I maintain contact with friends via Discord / phone. I’ve always preferred to keep searchable personal info off the web, for what some might call paranoid reasons (in a world where people are fired for social media posts, I reckon it’s best to stay away). Professionally, though, I needed to bite the bullet and sign up for a few sites to bolster my online presence. I’ve also reconsidered my goal in this course. I thought about what makes me feel passionate about web development, and while I was browsing the internet because I had reached a mental block, I thought of how much I dislike bad site design. Youtube is a recent offender (in my opinion) with the links that pop up at the end of videos, blocking the view for the last ten seconds of the video. The alignment of the suggested video links that pop up in a grid after the video stops is also aligned such that the titles of the first row of videos are off-screen. UI/UX is definitely appealing when I think of glaring front-end issues like those. Of course, this is tempered with realism (“Who’s this newbie coder throwing shade at Youtube?”) - I’m know the embarrassment of being wrong about something I claimed to know. Sometimes “bad design” is “design for a reason of which you’re unaware”. Regardless, I enjoy design and like the idea of making the web more usable for everyone. The picture activity we did was helpful in discovering this possible motivation for advancing my career in coding - it solidified my thoughts about who I was, am, and want to be.</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="postContainer container-fluid">
+				<h1 class="postTitle">Bootcamp Week 3</h1><h1 class="postDate d-none d-lg-inline-block">4 May 2018</h1>
+				<div class="row container-fluid">
+					<p class="postContent">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Capstone is finally here. Now that my final project has been assigned, I have a clear vision of the finish line for the first time. I don’t want to get headstrong; I just feel confident in my.group’s ability to finish strong and put together a polished product for capstone. I’m the github repo owner, which is a relief (I like to maintain a good level of control, especially in group projects - nothing against my current group, I’ve just had enough negative experiences to plan ahead. I’m not gonna be ‘that guy’ who does everyone’s work for them. All I want to do is give the project my full attention. I’m looking forward to seeing how the dynamic of our group works going forward. Our project idea is interesting (it came from a conversation between me and Yvette) because its analogs are not very robust - if we really go to town on this, it could be a huge success. I’m a food lover, so I’m really excited to discover what Albuquerque has to offer in terms of food trucks (I haven’t really checked). I know that we still have a lot to learn, but I definitely have a good grasp of what we’ve covered so far, and I’m ready to move forward.</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="postContainer container-fluid">
+				<h1 class="postTitle">Bootcamp Week 4</h1><h1 class="postDate d-none d-lg-inline-block">11 May 2018</h1>
+					<div class="row container-fluid">
+						<p class="postContent">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Capstone phase is in full swing from this week onward. Our vision for the Food Truck Finder app is becoming clearer as we progress through the data design stages. Our project is of middling complexity (for a capstone, at least) - we’ve got six entities, so we’ll be writing six classes next week. Our DDL is finished, and Yvette is working on getting our database configured this weekend. We’ve got a great concept to be working with, so hopefully the project turns out well. Of course, I have my concerns, as anyone should when working in a group (especially for something as important as capstone) but I remain confident that we’ll be able to cobble together something serviceable for demo day. I’ll contribute as much as I can to the group effort and try to be available to answer questions or help out whenever I can.</p>
+					</div>
+			</div>
+		</div>
+		<div class="contentSpacer"></div>
+
+<!--CONTACT FORM-->
+		<div id="posts" class="container">
+			<div class="postContainer container-fluid">
+				<h1 id="contentTitle">Contact</h1>
+			</div>
+		</div>
+
+		<div class="spacer"></div>
+		<div class="footer">
+			<div class="container">
+				<form id="pwp-form" method="post" action="php/mailer.php">
+					<div class="row">
+						<div class="col-md-4">
+							<div class="form-group">
+								<label for="pwpName">Name</label>
+								<div class="input-group">
+									<div class="input-group-prepend">
+										<span class="input-group-text"><i class="formIcon fa fa-user"></i></span>
+									</div>
+									<input class="form-control" type="text" name="pwpName" id="pwpName" placeholder="Your Name">
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-4">
+							<div class="form-group">
+								<label for="pwpEmail">Email</label>
+								<div class="input-group">
+									<div class="input-group-prepend">
+										<span class="input-group-text"><i class="formIcon fa fa-envelope"></i></span>
+									</div>
+									<input class="form-control" type="email" name="pwpEmail" id="pwpEmail" placeholder="Your Email">
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-4">
+							<div class="form-group">
+								<label for="pwpSubject">Subject</label>
+								<div class="input-group">
+									<div class="input-group-prepend">
+										<span class="input-group-text"><i class="formIcon fa fa-comment"></i></span>
+									</div>
+									<input class="form-control" type="text" name="pwpSubject" id="pwpSubject" placeholder="Subject">
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="form-group messageDiv">
+						<label for="pwpMessage">Message</label>
+						<div class="input-group">
+							<div class="input-group-prepend">
+								<span class="input-group-text"><i class="formIcon fas fa-edit"></i></span>
+							</div>
+							<textarea name="pwpMessage" rows="6" id="pwpMessage" class="form-control" placeholder="Your Message (2000 characters max)"></textarea>
+						</div>
+					</div>
+
+					<!--							RECAPTCHA-->
+					<div class="g-recaptcha" data-sitekey="6LenZlwUAAAAACHelIgj395loGCGGoFSmmm1IGUq"></div>
+
+					<button class="btn btn-info" type="submit">Send</button>
+					<button class="btn btn-default" type="reset">Reset</button>
+
+				</form>
+				<div id="output-area"></div>
+			</div>
+		</div>
 
 	<div id="contact"></div>
 </body>

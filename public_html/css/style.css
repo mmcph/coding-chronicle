@@ -93,6 +93,10 @@ body {
 
 /*CONTENT*/
 
+.contentSpacer {
+	height: 40px;
+}
+
 #contentTitle {
 	color: #B6FF00;
 	font-size: 2.1em;
