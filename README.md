@@ -49,3 +49,26 @@ Your Milestone 2a passes at [Tier II](https://bootcamp-coders.cnm.edu/projects/p
 
 ### Milestone 2b Feedback
 Nice work on PWP - this is looking great. Meeting notes left via Slack. Your Milestone 2b passes at [Tier IV](https://bootcamp-coders.cnm.edu/projects/personal/rubric/)
+
+### PWP Final Feedback
+Congratulations on an excellent PWP. What you have here is beautiful and well-executed. As I've said before - this project is much better suited to a proper blogging platform/CMS (WordPress, Ghost, Drupal, etc. Many to choose from.). Custom theme templating for a CMS is a logical next step in front-end learning - you may want to give this a shot. You're beyond ready for more front-end material, and I encourage you to keep challenging yourself.
+
+*Code Base*: Overall your code looks great. I did find some errors, see below. These can also be found by using https://validator.w3.org.
+- The `<ul>` is unclosed down by line 70.
+- There are duplicate ids: `contentTitle` and `posts`. Generally speaking, use classes for styling.
+- Always use `alt` attributes on your images.
+
+*Git Commits*: Nice work with version control - your Git/GitHub history is sufficient and detailed.
+
+*Mobile-First Responsiveness*: I've tested your page using devtools, Chrome on Linux, and Chrome & Firefox on Android. Your layout responds nicely across all platforms and is attractive and use-friendly on mobile - nice work. I lose the background image on the mobile browsers however, but this is a minor background image positioning issue ofr narrow screens (the image is there and being applied, just hiding behind the gradient). There also appears to be a little quirk with a gap the background color down at the bottom of the browser on Android Chrome, on scroll. This could be a webkit quirk... try writing the selector as `html, body` on line 1 in your CSS... that may help.
+
+*Design, Content, &amp; Overall Presentation*: What you've created meets a professional standard of quality and design - very nice work. Your content is interesting and engaging - I've thoroughly enjoyed reading about your experiences in the Bootcamp. Keep up the good work. Maybe consider lightening the content text color just a tiny bit... the contrast ratio between the text and backgrond color is a bit low. Increasing the contrast here would make the text a bit easier to read.
+
+*Contact Form*: This appears to work correctly from my end - check to see if you received my test message.
+
+Your PWP passes at [Tier IV](https://bootcamp-coders.cnm.edu/projects/personal/rubric/). Your cumulative PWP score including all Milestones is 36/40 points (90%).
+
+- Milestone 1 - 20%: Tier IV 40(0.2) = 8
+- Milestone 2a - 20%: Tier II 20(0.2) = 4
+- Milestone 2b - 10%: Tier IV 40(0.1) = 4
+- Milestone 3 - 50%: Tier IV 40(0.5) = 20
