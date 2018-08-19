@@ -58,9 +58,9 @@
 					<li class="nav-item">
 						<a class="nav-link" href="https://www.linkedin.com/in/mmcph" target="_blank"><i class="navIcon fab fa-linkedin"></i></a>
 					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="https://twitter.com/mmcphdev" target="_blank"><i class="navIcon fab fa-twitter-square"></i></a>
-					</li>
+<!--					<li class="nav-item">-->
+<!--						<a class="nav-link" href="https://twitter.com/mmcphdev" target="_blank"><i class="navIcon fab fa-twitter-square"></i></a>-->
+<!--					</li>-->
 					<li class="nav-item">
 						<a class="nav-link" href="#posts" data-toggle="tooltip" data-placement="bottom" title="Blog Posts"><i class="navIcon fas fa-pen-square"></i></a>
 					</li>
@@ -74,7 +74,7 @@
 		<div class="container">
 			<div class="postContainer container-fluid">
 				<h1 id="contentTitle">About Me</h1>
-				<p class="postContent">I am a web developer and writer. I completed my web development certification at Deep Dive Coding, part of CNM’s Ingenuity program. This ten-week bootcamp-style course familiarized me with HTML, CSS, Javascript, Angular, Bootstrap, PHP, and mySQL, and prepared me to enter the industry as a full-stack developer. I graduated from UNM in 2015 with a bachelor’s in English and a minor in art studio. My language, communication, and design skills, combined with my newfound passion for coding, enable me to create sleek, professional web content for a variety of applications.</p>
+				<p class="postContent">I am a web developer and writer. I completed my web development certification at Deep Dive Coding, part of CNM’s Ingenuity program. This ten-week bootcamp-style course familiarized me with HTML, CSS, Javascript, Angular, Bootstrap, PHP, and mySQL, and prepared me to enter the industry as a full-stack developer. I also earned a web development certificate from Udemy, from which I learned node.js and MongoDB. I graduated from UNM in 2015 with a bachelor’s in English and a minor in art studio. My language, communication, and design skills, combined with my newfound passion for coding, enable me to create sleek, professional web content for a variety of applications.</p>
 			</div>
 		</div>
 		<div class="contentSpacer"></div>
@@ -82,14 +82,31 @@
 <!--PROJECTS-->
 		<div class="container">
 			<div class="postContainer container-fluid">
-				<h1 id="contentTitle">Coding Projects</h1>
+				<h1 id="contentTitle">Coding Projects / News</h1>
 			</div>
 		</div>
+
+		<div class="container">
+			<div class="postContainer container-fluid">
+				<h1 class="postTitle">Certificate in Web Development from Udemy</h1><h1 class="postDate d-none d-lg-inline-block">19 August 2018</h1>
+				<div class="row container-fluid">
+					<div class="thumbContainer col-lg-4 col-md-3"><img src="./images/Screen%20Shot%202018-08-19%20at%203.01.49%20PM.png" alt="screencap of certificate" class="img-fluid"></div>
+					<div class="textContainer col-lg-8 col-md-9">
+						<p class="postContent"><a href="https://www.udemy.com/certificate/UC-1UUFYW7P/" title="my certificate" target="_blank">Link to certificate</a></p>
+						<p class="postContent"><a href="https://github.com/mmcph/WebDevBootcamp" title="personal coursework repository" target="_blank">GitHub repo</a></p>
+						<br>
+						<p class="postContent">Back in December, my father and I began working on a Udemy course together (<a href="https://www.udemy.com/the-web-developer-bootcamp/" title="udemy course link" target="_blank">The Web Developer Bootcamp</a> by Colt Steele). Prior to starting this course, I had minimal coding experience ('experience' amounts to an unfinished Coursera class that I began back in September), so I was an almost entirely blank slate going in. In addition to the basics of front end development, the course covered Node.js, a simple and effective environment for the development of web content (after barely staying afloat in Angular, Node was like splashing around in the kiddy pool). It really is dead-simple to set up a functional app with Node - I highly recommend it to anyone who is interested in building something a bit more robust that a static site. I also learned MongoDB, which was an interesting change from my mySQL experience. Both have their uses, and I see no problem with using Mongo for a lightweight non-relational database solution - I actually really enjoyed its simplicity and ease of use.</p>
+						<p class="postContent">I highly recommend this course to anyone who wishes to learn the basics of web development. After completing this course, you will absolutely be able to create and host a web application of your own design. It's an online course, so you get out of it what you put into it, but the structure of the course was perfect for a newbie such as myself. Shout-out to Colt Steele - good course from a good instructor.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
 		<div class="container">
 			<div class="postContainer container-fluid">
 				<h1 class="postTitle">Food Truck Found</h1><h1 class="postDate d-none d-lg-inline-block">4 June 2018</h1>
 				<div class="row container-fluid">
-					<div class="thumbContainer col-lg-4 col-md-3"><img src="https://i.imgur.com/ETGr3aA.png" class="img-fluid"></div>
+					<div class="thumbContainer col-lg-4 col-md-3"><img src="https://i.imgur.com/ETGr3aA.png" alt="food truck found logo" class="img-fluid"></div>
 					<div class="textContainer col-lg-8 col-md-9">
 						<p class="postContent"><a href="https://www.github.com/mmcph/food-truck-finder" title="capstone repository" target="_blank">Github Repository</a></p>
 						<br>
@@ -103,7 +120,7 @@
 			<div class="postContainer container-fluid">
 				<h1 class="postTitle">Personal Site</h1><h1 class="postDate d-none d-lg-inline-block">4 June 2018</h1>
 				<div class="row container-fluid">
-					<div class="thumbContainer col-lg-4 col-md-3"><img src="https://i.imgur.com/KJbr2SL.png" class="img-fluid"></div>
+					<div class="thumbContainer col-lg-4 col-md-3"><img src="https://i.imgur.com/KJbr2SL.png" alt="personal logo" class="img-fluid"></div>
 					<div class="textContainer col-lg-8 col-md-9">
 						<p class="postContent"><a href="http://www.marlonmc.com/testsite/index.html" title="my first site" target="_blank">marlonmc.com</a></p>
 						<br>
@@ -117,7 +134,7 @@
 			<div class="postContainer container-fluid">
 				<h1 class="postTitle">jQuery To-Do List</h1><h1 class="postDate d-none d-lg-inline-block">4 June 2018</h1>
 				<div class="row container-fluid">
-					<div class="thumbContainer col-lg-4 col-md-3"><img src="https://i.imgur.com/eTKFGru.png" class="img-fluid"></div>
+					<div class="thumbContainer col-lg-4 col-md-3"><img src="https://i.imgur.com/eTKFGru.png" alt="screencap of project" class="img-fluid"></div>
 					<div class="textContainer col-lg-8 col-md-9">
 						<p class="postContent"><a href="http://www.marlonmc.com/ToDo/index.html" title="my first jQuery project" target="_blank">jQuery To-Do List</a></p>
 						<br>
@@ -138,9 +155,35 @@
 
 		<div class="container">
 			<div class="postContainer container-fluid">
-				<h1 class="postTitle">Bootcamp Week 1</h1><h1 class="postDate d-none d-lg-inline-block">20 April 2018</h1>
+				<h1 class="postTitle">&lt;h1 style="corny:true;"&gt;New Beginnings&lt;/h1&gt;</h1><h1 class="postDate d-none d-lg-inline-block">19 August 2018</h1>
 				<div class="row container-fluid">
-					<p class="postContent">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The week went about as I expected it to go (like the first week in any course). Reviewing the syllabus, settling into routines, and meeting peers took up the first couple days. Since I had previous front-end experience coming into the course, almost all of the front-end centered lectures and activities were review for me. The review didn’t last long, since we jumped into mySQL and data design fairly soon after. This is all unfamiliar territory to me, so my previous experience means nothing. I expected more front-end review in a full stack course, so it was a bit surprising when we made the jump straight into databases. I feel the anxiety that comes with the pressure of learning new material (especially in a bootcamp setting), but I still feel confident in my ability to learn and apply the material. In other words, I haven’t stumbled off the ‘cliff of confusion’ yet, but I’m certainly open to the possibility - in fact, I welcome it. You’ve gotta fall down to learn how to stand up. Of course, I’ll do what I can to mitigate the fall, but I’m definitely expecting it. I first felt my toes poke over the edge when we discussed logarithms and bits/bytes. I don’t have a good understanding of math, so any math-oriented material will present an extra hurdle for me, but if I continue to devote 100% of my attention and effort in class, I know I’ll pull through.</p>
+					<p class="postContent">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It’s been a while since my last update. I’ll admit, there was some resting on laurels, but I was also searching for employment, which I have now found. Though I won’t be starting out as a developer, I will get some experience on the webmaster side of things, which I’m looking forward to. The experience I gained at Deep Dive was almost entirely development, so it will be exciting to look at different aspects of online business such as analytics, hosting services, mail servers, site maintenance, and more.
+					</p>
+					<p class="postContent">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In the meantime, I will of course continue to expand my development skills in my free time. I’m currently working on a site redesign for a family friend. In addition to any web dev projects I feel like taking on, I’ll be learning more JavaScript and applying what I learn to creating more interactive and flashy content. I’d also like to learn more about functional programming in general, and I might take a look at Python and try to set up some basic scripts. I’ll also continue to use the command line as much as I can (shout-out to ‘bang dollar’ (!$), the most recent command line time-saver I learned (thanks Dad)).
+					</p>
+					<p class="postContent">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I’ll be starting out at my new job tomorrow, so of course I’m all nerves - I remain as confident as ever, but this is the first tangible result of a career change that will shape the remainder of my life. I don’t know where the road will lead or where it will fork, but I won’t be stepping off of it. I finally found something I enjoy, and I’m gonna cling to it like a shipwreck survivor on a splintered plank - and I’m gonna paddle like hell. Who knows, in a couple years I might be able to upgrade to the door in 'Titanic' (and let's be real here, there was ample room for Jack on that thing...come on Hollywood).
+					</p>
+					<p class="postContent">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Many thanks to the people over at Deep Dive Coding - who knows where I'd be without you? I'd recommend your bootcamps to anyone with the desire and drive to learn.</p>
+					<p class="postContent"><sub>P.S. Jokes aside, I would <em>never</em> use in-line style!</sub></p>
+				</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="postContainer container-fluid">
+				<h1 class="postTitle">Bootcamp Week 4</h1><h1 class="postDate d-none d-lg-inline-block">11 May 2018</h1>
+				<div class="row container-fluid">
+					<p class="postContent">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Capstone phase is in full swing from this week onward. Our vision for the Food Truck Finder app is becoming clearer as we progress through the data design stages. Our project is of middling complexity (for a capstone, at least) - we’ve got six entities, so we’ll be writing six classes next week. Our DDL is finished, and Yvette is working on getting our database configured this weekend. We’ve got a great concept to be working with, so hopefully the project turns out well. Of course, I have my concerns, as anyone should when working in a group (especially for something as important as capstone) but I remain confident that we’ll be able to cobble together something serviceable for demo day. I’ll contribute as much as I can to the group effort and try to be available to answer questions or help out whenever I can.</p>
+				</div>
+			</div>
+		</div>
+		<div class="contentSpacer"></div>
+
+		<div class="container">
+			<div class="postContainer container-fluid">
+				<h1 class="postTitle">Bootcamp Week 3</h1><h1 class="postDate d-none d-lg-inline-block">4 May 2018</h1>
+				<div class="row container-fluid">
+					<p class="postContent">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Capstone is finally here. Now that my final project has been assigned, I have a clear vision of the finish line for the first time. I don’t want to get headstrong; I just feel confident in my.group’s ability to finish strong and put together a polished product for capstone. I’m the github repo owner, which is a relief (I like to maintain a good level of control, especially in group projects - nothing against my current group, I’ve just had enough negative experiences to plan ahead. I’m not gonna be ‘that guy’ who does everyone’s work for them. All I want to do is give the project my full attention. I’m looking forward to seeing how the dynamic of our group works going forward. Our project idea is interesting (it came from a conversation between me and Yvette) because its analogs are not very robust - if we really go to town on this, it could be a huge success. I’m a food lover, so I’m really excited to discover what Albuquerque has to offer in terms of food trucks (I haven’t really checked). I know that we still have a lot to learn, but I definitely have a good grasp of what we’ve covered so far, and I’m ready to move forward.</p>
 				</div>
 			</div>
 		</div>
@@ -157,22 +200,14 @@
 
 		<div class="container">
 			<div class="postContainer container-fluid">
-				<h1 class="postTitle">Bootcamp Week 3</h1><h1 class="postDate d-none d-lg-inline-block">4 May 2018</h1>
+				<h1 class="postTitle">Bootcamp Week 1</h1><h1 class="postDate d-none d-lg-inline-block">20 April 2018</h1>
 				<div class="row container-fluid">
-					<p class="postContent">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Capstone is finally here. Now that my final project has been assigned, I have a clear vision of the finish line for the first time. I don’t want to get headstrong; I just feel confident in my.group’s ability to finish strong and put together a polished product for capstone. I’m the github repo owner, which is a relief (I like to maintain a good level of control, especially in group projects - nothing against my current group, I’ve just had enough negative experiences to plan ahead. I’m not gonna be ‘that guy’ who does everyone’s work for them. All I want to do is give the project my full attention. I’m looking forward to seeing how the dynamic of our group works going forward. Our project idea is interesting (it came from a conversation between me and Yvette) because its analogs are not very robust - if we really go to town on this, it could be a huge success. I’m a food lover, so I’m really excited to discover what Albuquerque has to offer in terms of food trucks (I haven’t really checked). I know that we still have a lot to learn, but I definitely have a good grasp of what we’ve covered so far, and I’m ready to move forward.</p>
+					<p class="postContent">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The week went about as I expected it to go (like the first week in any course). Reviewing the syllabus, settling into routines, and meeting peers took up the first couple days. Since I had previous front-end experience coming into the course, almost all of the front-end centered lectures and activities were review for me. The review didn’t last long, since we jumped into mySQL and data design fairly soon after. This is all unfamiliar territory to me, so my previous experience means nothing. I expected more front-end review in a full stack course, so it was a bit surprising when we made the jump straight into databases. I feel the anxiety that comes with the pressure of learning new material (especially in a bootcamp setting), but I still feel confident in my ability to learn and apply the material. In other words, I haven’t stumbled off the ‘cliff of confusion’ yet, but I’m certainly open to the possibility - in fact, I welcome it. You’ve gotta fall down to learn how to stand up. Of course, I’ll do what I can to mitigate the fall, but I’m definitely expecting it. I first felt my toes poke over the edge when we discussed logarithms and bits/bytes. I don’t have a good understanding of math, so any math-oriented material will present an extra hurdle for me, but if I continue to devote 100% of my attention and effort in class, I know I’ll pull through.</p>
 				</div>
 			</div>
 		</div>
 
-		<div class="container">
-			<div class="postContainer container-fluid">
-				<h1 class="postTitle">Bootcamp Week 4</h1><h1 class="postDate d-none d-lg-inline-block">11 May 2018</h1>
-					<div class="row container-fluid">
-						<p class="postContent">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Capstone phase is in full swing from this week onward. Our vision for the Food Truck Finder app is becoming clearer as we progress through the data design stages. Our project is of middling complexity (for a capstone, at least) - we’ve got six entities, so we’ll be writing six classes next week. Our DDL is finished, and Yvette is working on getting our database configured this weekend. We’ve got a great concept to be working with, so hopefully the project turns out well. Of course, I have my concerns, as anyone should when working in a group (especially for something as important as capstone) but I remain confident that we’ll be able to cobble together something serviceable for demo day. I’ll contribute as much as I can to the group effort and try to be available to answer questions or help out whenever I can.</p>
-					</div>
-			</div>
-		</div>
-		<div class="contentSpacer"></div>
+
 
 <!--CONTACT FORM-->
 		<div id="posts" class="container">
